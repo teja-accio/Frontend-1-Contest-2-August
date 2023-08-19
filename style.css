@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* background-color: #F4F2DE; */
+    background-color: #FAF3F0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container{
+    width: 50%;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* navigation bar css */
+
+#navbar{
+    background-color: #FF6969;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list{
+    margin: 10px;
+}
+
+.nav-link{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 19px;
+    padding: 10px;
+}
+
+.nav-link:hover{
+    color: #FF6969;
+    background-color: #fff;
+    border-radius: 5px 10px 5px 10px;
+    transition: .1s ease-in-out;
+}
+
+#logo>a
+{
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* table section css */
+
+#page-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+#book-info,th,td
+{
+    border-collapse: collapse;
+    border: 2px solid #e7e6e7;
+}
+
+th,td{
+    padding: 10px;
+    width: 160px;
+}
+
+.title-table{
+    width: 250px;
+}
+
+.book-title
+{
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+/* registeration form css */
+
+#page-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.page-title
+{
+    color: #FF6969;
+    font-size: 35px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.form-label
+{
+    font-size: 18px;
+}
+
+.form-input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    outline: none;
+    padding: 8px;
+    border: 2px solid #e7e6e7;
+    border-radius: 5px;
+}
+
+.form-input:focus
+{
+    border: 2px solid #FF6969;
+}
+
+.form-btn
+{
+    color: #ffffff;
+    background-color: #FF6969;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form-btn:hover
+{
+    background-color: #f55656;
+}
