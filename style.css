@@ -6,7 +6,7 @@ html{
 
 body{
     /* background-color: #F4F2DE; */
-    background-color: #FAF3F0;
+    background-color: #cfc4bf;
 }
 
 *{
@@ -26,7 +26,7 @@ body{
 /* navigation bar css */
 
 #navbar{
-    background-color: #FF6969;
+    background-color: #0000FF;
     height: 80px;
     position: sticky;
     top: 0px;
@@ -55,7 +55,7 @@ body{
 }
 
 .nav-link:hover{
-    color: #FF6969;
+    color: #0000FF;
     background-color: #fff;
     border-radius: 5px 10px 5px 10px;
     transition: .1s ease-in-out;
@@ -113,7 +113,7 @@ th,td{
 
 .page-title
 {
-    color: #FF6969;
+    color: #0000FF;
     font-size: 35px;
     text-align: center;
     margin: 10px 0px;
@@ -136,13 +136,13 @@ th,td{
 
 .form-input:focus
 {
-    border: 2px solid #FF6969;
+    border: 2px solid #0000FF;
 }
 
 .form-btn
 {
     color: #ffffff;
-    background-color: #FF6969;
+    background-color: #0000FF;
     width: 100%;
     margin-top: 10px;
     padding: 10px;
@@ -155,5 +155,5 @@ th,td{
 
 .form-btn:hover
 {
-    background-color: #f55656;
+    background-color: #0000FF;
 }
